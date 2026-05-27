@@ -1,0 +1,25 @@
+# Compiled binaries
+stupidWizards
+stupid_wizards
+StupidWizards
+*.o
+*.out
+
+# Build folders
+build/
+
+# Screenshots
+ScreenShots/
+
+# Random notes
+attacklist.txt
+roadmapv2.txt
+StupidWizardsAttacks.txt
+attackslist.txt
+
+# Dev junk
+*.log
+*.tmp
+
+# Neovim swap files
+*.swp
