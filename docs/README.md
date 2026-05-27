@@ -14,8 +14,11 @@ g++ *.cpp -stupidwizards -o stupidwizards -lraylib
 and right now:
 
 select your character
+
 press RIGHT ARROW for Fireball
+
 press LEFT ARROW for Shield
+
 Press DOWN ARROW for Lightning
 
 I don't have animations for the attacks yet, but you can see them appear in the terminal!
