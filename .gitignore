@@ -1,7 +1,5 @@
 # Compiled binaries
-stupidWizards
-stupid_wizards
-StupidWizards
+build/
 *.o
 *.out
 
@@ -16,7 +14,8 @@ attacklist.txt
 roadmapv2.txt
 StupidWizardsAttacks.txt
 attackslist.txt
-story/
+story.md
+norsespells.md
 old/
 
 # Dev junk

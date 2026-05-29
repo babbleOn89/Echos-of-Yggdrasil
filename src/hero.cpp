@@ -4,8 +4,8 @@
 
 Hero::Hero()
 {
-    heroOne = LoadTexture("graphics/hero/mhero2.png");
-    heroTwo = LoadTexture("graphics/hero/fhero2.png");
+    heroOne = LoadTexture("assets/hero/mhero2.png");
+    heroTwo = LoadTexture("assets/hero/fhero2.png");
     
     currentImage = heroOne;
     type = Hero_One;
