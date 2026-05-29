@@ -5,11 +5,11 @@ I don't know what else to put here at the moment. You can:
 #compile with 
 
 ```bash
-g++ *.cpp -stupidwizards -o stupidwizards -lraylib
+g++ *.cpp -o ygg -lraylib
 ```
 
 #run
-./stupidwizards
+./ygg
 
 and right now:
 
