@@ -2,9 +2,9 @@
 
 Enemy::Enemy()
 {
-    pierreTexture = LoadTexture("graphics/enemy/pierre2.png");
-    georgeTexture = LoadTexture("graphics/enemy/george2.png");
-    ghostTexture = LoadTexture("graphics/enemy/ghost2.png");
+    pierreTexture = LoadTexture("assets/bosses/pierre2.png");
+    georgeTexture = LoadTexture("assets/bosses.png");
+    ghostTexture = LoadTexture("assets/bosses/ghost2.png");
 
     pierreScale = 0.28f;
     georgeScale = 0.28f;
