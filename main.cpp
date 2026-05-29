@@ -3,7 +3,7 @@
 
 int main()
 {
-    int windowWidth = 1400;
+    int windowWidth = 1600;
     int windowHeight = 400;
 
     InitWindow(windowWidth, windowHeight, "Stupid Wizards");

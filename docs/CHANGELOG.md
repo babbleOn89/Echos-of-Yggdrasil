@@ -1,68 +1,58 @@
-# STUPID WIZARDS - CHANGELOG
+# (TITLE IN PROGRESS) - CHANGELOG
 
 ---
 
-# v0.01 - The Wizard Awakens
-2026-05-18
+# v0.05
 
-- Initial concept planning
-- Decided on fantasy/cartoon wizard direction
-- Planned playable wizard system
-- Planned enemy wizard variants
-- Chose C++ and raylib for development
+2026-05-28
 
-Notes:
-The project officially escaped containment and became real.
+### Added
 
----
+* Added attack selection controls
+* Added Fireball, Shield, and Lightning attacks
+* Added random enemy sprite selection
+* Added new hero and enemy artwork
+* Added additional enemy variants
+* Added configurable enemy foot offsets
 
-# v0.02 - Wizard Factory Expansion
-2026-05-19
+### Changed
 
-- Created "Pierre" enemy design
-- Created "George" enemy design
-- Added "Ghost" enemy (MORTAL KOMBAT!!)
-- Created left-facing sprite variants
-- Added transparent-background sprites
-- Established visual style direction
+* Improved battle screen presentation
+* Improved sprite scaling and positioning
+* Improved hero and enemy visual consistency
+* Reorganized project documentation
 
-Discoveries:
-Separate left/right sprites seem cleaner than flipping textures.
+### Fixed
 
----
+* Fixed enemy sprite ground alignment issues
 
-# v0.03 - Systems & Summoning
-2026-05-20
+### Current Controls
 
-- Added enemy random spawning
-- Began hero/enemy systems
-- Created character select framework
-- Improved positioning/scaling
-- Fixed enemy sprite rendering bug
-
-Bug Fix:
-Enemy .png was not displaying due to filename typo because computers are evil sometimes.
-
-Build Command:
-
-```bash
-g++ main.cpp hero.cpp enemy.cpp -o StupidWizards -lraylib
-```
+* LEFT ARROW = Fireball
+* DOWN ARROW = Lightning
+* RIGHT ARROW = Shield
 
 ---
 
-# v0.04 - Combat Arcana
+# v0.04
+
 2026-05-23
 
-- Added attack/battle system
-- Added battle timer
-- Added dialogue prototype
-- Combat flow beginning to function
+### Added
 
-Planned Features:
-- Mana/AP system
-- Health system
-- Better dialogue scripting
+* Added attack/battle system
+* Added battle timer
+* Added dialogue prototype
+
+### Changed
+
+* Combat flow now functions from attack selection to resolution
+
+### Planned
+
+* Mana/AP system
+* Health system
+* Improved dialogue scripting
 
 Build Command:
 
@@ -72,20 +62,67 @@ clear && g++ *.cpp -o StupidWizards -lraylib
 
 ---
 
-# v0.05 - Terminal Wizardry
-2026-05-27
+# v0.03
 
-- Added attack selection controls
-- Fireball, Shield, and Lightning attacks functional
-- Attack events now print to terminal for debugging
-- README added to GitHub
-- Repository uploaded publicly as active WIP
+2026-05-20
 
-Current Controls:
-- RIGHT ARROW = Fireball
-- LEFT ARROW = Shield
-- DOWN ARROW = Lightning
+### Added
 
-Notes:
-Animations are not implemented yet, but the combat skeleton is alive.
-Which is mildly concerning for the enemy wizards.
+* Added enemy random spawning
+* Began hero/enemy systems
+* Created character select framework
+
+### Changed
+
+* Improved positioning and scaling
+
+### Fixed
+
+* Fixed enemy sprite rendering issue caused by incorrect filename
+
+Build Command:
+
+```bash
+g++ main.cpp hero.cpp enemy.cpp -o StupidWizards -lraylib
+```
+
+---
+
+# v0.02
+
+2026-05-19
+
+### Added
+
+* Created Pierre enemy design
+* Created George enemy design
+* Created Ghost enemy design
+* Created left-facing sprite variants
+* Added transparent-background sprites
+
+### Changed
+
+* Established overall visual style direction
+
+### Notes
+
+* Separate left/right sprites appear cleaner than texture flipping
+
+---
+
+# v0.01
+
+2026-05-18
+
+### Added
+
+* Initial project planning
+* Fantasy/cartoon wizard concept
+* Playable wizard system design
+* Enemy wizard variant planning
+* Selected C++ and raylib as project technologies
+
+### Notes
+
+* Initial project creation
+

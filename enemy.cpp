@@ -2,17 +2,17 @@
 
 Enemy::Enemy()
 {
-    pierreTexture = LoadTexture("graphics/Enemy/enemy1.png");
-    georgeTexture = LoadTexture("graphics/Enemy/enemy2.png");
-    ghostTexture = LoadTexture("graphics/Enemy/enemy3.png");
+    pierreTexture = LoadTexture("graphics/enemy/pierre2.png");
+    georgeTexture = LoadTexture("graphics/enemy/george2.png");
+    ghostTexture = LoadTexture("graphics/enemy/ghost2.png");
 
-    pierreScale = 0.25f;
-    georgeScale = 0.25f;
-    ghostScale = 0.25f;
+    pierreScale = 0.28f;
+    georgeScale = 0.28f;
+    ghostScale = 0.28f;
 
     active = true;
     
-    float groundY = 360;
+    float groundY = 340;
     float enemyFootOffset= 0;
 
     int choice = GetRandomValue(0, 2);
@@ -22,18 +22,21 @@ Enemy::Enemy()
         type = ENEMY_PIERRE;
         currentTexture = pierreTexture;
         currentScale = pierreScale;
+        enemyFootOffset = 65;
     }
     else if(choice == 1)
     {
         type = ENEMY_GEORGE;
         currentTexture = georgeTexture;
         currentScale = georgeScale;
+        enemyFootOffset = 65;
     }
     else if(choice == 2)
     {
         type = ENEMY_GHOST;
         currentTexture = ghostTexture;
         currentScale = ghostScale;
+        enemyFootOffset = 65;
     }
 
     position.x = 950;

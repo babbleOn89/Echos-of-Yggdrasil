@@ -1,200 +1,126 @@
-==================================================
-STUPIDWIZARDS - DEVELOPMENT LOG
-==================================================
 
-Project Goal:
-A 2D fantasy wizard game made in C++ with raylib featuring multiple playable wizards, enemy variants, cartoon fantasy visuals, and simple combat/gameplay systems.
+# Name in Progress - DEVELOPMENT LOG
 
+# Project Goal
 
-==================================================
-DATE: 2026-05-18
-==================================================
+A 2D fantasy wizard game built with C++ and raylib featuring playable wizards, enemy variants, turn-based combat systems, and cartoon fantasy visuals.
 
-Session Length: 6 hours
+---
 
-Mood/Notes:
+# DATE: 2026-05-28
 
+# Session Length
 
-Goals For Session:
-- Begin planning the overall game concept
-- Decide on visual style
-- Start thinking about character systems
+~4 Hours
 
+# Goals For Session
 
-Completed:
-- Created the core idea for “StupidWizards”
-- Decided on a cartoon/fantasy wizard aesthetic
-- Discussed on having multiple playable wizard characters
-- Planned enemy wizard variations
-- Decided the game would use C++ and raylib
+* Update character sprites
+* Fit hero and enemy artwork into the battle window
+* Improve battle screen presentation
+* Flesh out story concepts
 
+# Completed
 
-Problems Encountered:
-- Needed a clearer direction for the game structure
-- Unsure how to organize characters and enemy systems
+* Replaced hero sprite artwork
+* Added multiple enemy sprite variants
+* Adjusted sprite scaling for battle scenes
+* Improved visual consistency between hero and enemy characters
+* Created outline for story direction
+* Improved overall battle screen presentation
 
+# Problems Encountered
 
-Solutions / Discoveries:
-- Decided to keep the game scope manageable
-- Focused on sprite-based gameplay instead of large engine systems
-- Began thinking in terms of reusable game systems
+* Enemy PNG files used different dimensions than hero sprites
+* Characters appeared to stand at different heights despite similar scales
+* Sprite positioning looked inconsistent between enemies
 
+# Solutions / Discoveries
 
-Ideas For Later:
-- Character select screen
-- Wizard abilities
-- Multiple enemy types
-- Boss encounters
+* Implemented enemy foot-offset positioning
+* Learned that transparent padding affects sprite alignment
+* Discovered that visual grounding is often solved with per-character offsets
+* Kept the narrow battle-screen layout instead of redesigning the window
 
+# Ideas For Later
 
-Commands / Build Notes:
-- Initial project planning stage
+* Rename spells
+* Create Health system
+* Create AP/Mana system
+* Add combat animations
+* Add damage calculations
+* Expand story dialogue
 
+# Commands / Build Notes
 
-Files Modified:
-- Planning phase only
+```bash
+clear && g++ *.cpp -o StupidWizards -lraylib
+```
 
+# Files Modified
 
-END SESSION
+* enemy.cpp
+* enemy.hpp
+* Updated enemy sprite assets
+* Updated hero sprite assets
 
+# End Session Notes
 
-
-==================================================
-DATE: 2026-05-19
-==================================================
-
-Session Length: five hours
-
-Mood/Notes: no notes
-
-
-Goals For Session:
-- Create visual assets for the game
-- Work on enemy concepts
-- Improve sprite consistency
-
-
-Completed:
-- Generated "Pierre" enemy design
-- Created "George" enemy design
-- Created "Ghost" enemy design (MORTAL KOMBAT!!)
-- Created left-facing wizard versions for combat consistency
-- Generated transparent-background versions for game usage
-- Established the game’s visual style direction
-
-
-Problems Encountered:
-- Needed consistent sprite directions
-- Needed transparent backgrounds for implementation
-- Wanted all sprites to match the same art style
-
-
-Solutions / Discoveries:
-- Decided to use separate left/right facing sprites
-- Chose to swap textures instead of flipping sprites
-- Established a recurring fantasy/cartoon visual style
-
-
-Ideas For Later:
-- Enemy
-- Spell effects
-- More ememy designs
-
-
-Commands / Build Notes:
-- Asset creation and planning work
-
-
-Files Modified:
-- Sprite assets
-- Texture planning notes
-
+Battle scenes now look significantly more cohesive. Character positioning and sprite presentation are beginning to resemble a real game rather than a prototype.
 
 END SESSION
 
+---
 
+# DATE: 2026-05-23
 
-==================================================
-DATE: 2026-05-20
-==================================================
+# Session Length
 
-Session Length:
+Not Recorded
 
-Mood/Notes:
+# Goals For Session
 
+* Incorporate attack/battle system
+* Add battle timer
+* Create dialogue prototype
 
-Goals For Session:
-- Create hero and enemy systems:
-    -directional key attack system | enemy rng
-- Improve positioning and scaling
-- Debug compile issues
-- Improve Linux development workflow
+# Completed
 
+* Added attack selection system
+* Added battle timer
+* Added dialogue prototype
+* Established basic combat flow
 
-Completed:
-- Created enemy random spawn
-- Selection Framework Prototype
-- Character selection screen designS
+# Problems Encountered
 
-Problems Encountered:
-- Enemy .png wouldn't display on screen.
+* No major issues encountered
 
+# Solutions / Discoveries
 
-Solutions / Discoveries:
--Fixed typo in enemy filename.
--Added a clear draw function to the end of Draw Method.
--
+* Confirmed combat loop structure is viable
+* Established foundation for future combat systems
 
+# Ideas For Later
 
-Ideas For Later:
+* Better dialogue scripting
+* Mana/AP system
+* Health system
 
+# Commands / Build Notes
 
-Commands / Build Notes:
-• g++ main.cpp hero.cpp enemy.cpp -o StupidWizards -lraylib
+```bash
+clear && g++ *.cpp -o StupidWizards -lraylib
+```
 
+# Files Modified
 
-Files Modified:
+* game.cpp
+* game.hpp
+* hero.cpp
+* enemy.cpp
 
+# End Session Notes
+
+Combat framework is functional and ready for expansion.
 
 END SESSION
-
-----------------------------------------
-DATE: 2026-05-23
-Session Length:
-Mood/Notes:
-----------------------------------------
-
-Goals For Session:
-- Incorperate attack/battle system
-- Include battle timer
-- Dialogue prototype
-
-Completed:
-- All listed
--
--
-
-Problems Encountered:
-- nothing of significance
--
--
-
-Solutions / Discoveries:
-- n/a
--
--
-
-Ideas For Later:
-- better dialogue scripe
-- mana/ap system
-- health system
-
-Commands / Build Notes:
-- clear && g++ *.cpp -o StupidWizards -lraylib
-
-Files Modified:
--
-
-----------------------------------------
-END SESSION
-----------------------------------------
