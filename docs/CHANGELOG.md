@@ -1,4 +1,4 @@
-# (TITLE IN PROGRESS) - CHANGELOG
+# Echos of Yggdrasil - CHANGELOG
 
 ---
 
@@ -21,6 +21,7 @@
 * Improved sprite scaling and positioning
 * Improved hero and enemy visual consistency
 * Reorganized project documentation
+* Name!!
 
 ### Fixed
 

@@ -16,7 +16,8 @@ attacklist.txt
 roadmapv2.txt
 StupidWizardsAttacks.txt
 attackslist.txt
-story.txt
+story/
+old/
 
 # Dev junk
 *.log
